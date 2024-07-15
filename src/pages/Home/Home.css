@@ -1,0 +1,29 @@
+.home-page header {
+  background-image: linear-gradient(rgba(5, 10, 35, 0.3), rgba(5, 10, 35, 0.3)),
+    url(/public/header_bg.png);
+}
+
+header {
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-section {
+  background-image: linear-gradient(
+      rgba(5, 10, 35, 0.75),
+      rgba(5, 10, 35, 0.75)
+    ),
+    url(../../utils/images/blog-section-img.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.btn_light_blue {
+  background-color: #3b82f6;
+  outline: none;
+  padding: 11px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
